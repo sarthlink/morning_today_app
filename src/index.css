@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  margin: 3%;
+  padding: 0;
+  font-family: 'roboto', 'sans-serif';
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);  
+  background-size: cover;
+}
+.all__news {
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  
+}
+
+.news {
+  max-width: 500px;
+  padding: 30px;
+  /* border: 1px solid lightgray; */
+  border-radius: 5px;
+
+
+/* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+}
+
+.glassMorphism{
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.45 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+}
+
+.news__title {
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+  font-size: large;
+  font-weight: bold;
+}
+
+.head__text {
+  margin-top: 30px;
+}
+
